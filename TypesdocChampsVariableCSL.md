@@ -199,8 +199,6 @@ Les champs suivants existent pour plusieurs types de documents et ont la même d
 
 ### Champs pour les rapports et les thèses🔗
 
-
-
 * Champ: TypeType de rapport
   * Description: Le type de rapport (par exemple, "Rapport technique", "Dossier technique CPTO") ou de thèse (par exemple, "Thèse de doctorat", "Mémoire de maîtrise" ; le mot "thèse" ou "mémoire" doit être inclus si applicable).
 * Champ: N° du rapport
@@ -210,8 +208,6 @@ Les champs suivants existent pour plusieurs types de documents et ont la même d
 
 
 ### Champs pour les présentations et les conférences🔗
-
-
 
 * Champ: Titre des actes
   * Description: Le titre des actes de conférence dans lequel un article de conférence a été publié.
@@ -224,8 +220,6 @@ Les champs suivants existent pour plusieurs types de documents et ont la même d
 
 
 ### Champs pour les enregistrements et les émissions🔗
-
-
 
 * Champ: FormatType de fichier
   * Description: Le format d'un enregistrement audio ou vidéo (par exemple "DVD," "CD," "MP3," etc.).
@@ -249,8 +243,6 @@ Les champs suivants existent pour plusieurs types de documents et ont la même d
 
 ### Champs pour les images, les œuvres d'art et les cartes🔗
 
-
-
 * Champ: Support de l'illustration
   * Description: Le type d'œuvre ou de figure ou le support avec lequel elle a été créée (par exemple, "Peinture à l'aquarelle", "Sculpture sur bois", "Cristallographe à rayons X", "Nuage de points").
 * Champ: Taille d'illustration
@@ -262,8 +254,6 @@ Les champs suivants existent pour plusieurs types de documents et ont la même d
 
 
 ### Champs pour les sources primaires et les communications personnelles🔗
-
-
 
 * Champ: Média
   * Description: Pour les interviews, format dans lequel une interview a été enregistrée (par exemple, "Enregistrement audio", "Enregistrement vidéo", "Transcription").
@@ -289,8 +279,6 @@ Les champs suivants existent pour plusieurs types de documents et ont la même d
 
 ### Champs pour les programmes informatiques🔗
 
-
-
 * Champ: Version
   * Description: La version d'un programme informatique.
 * Champ: Système
@@ -303,8 +291,6 @@ Les champs suivants existent pour plusieurs types de documents et ont la même d
 
 ### Champs supplémentaires🔗
 
-
-
 * Champ: Autorisations*
   * Description: Les conditions de copyright, la licence ou le statut de diffusion d'un document.
 * Champ: Date d'ajout
@@ -314,14 +300,11 @@ Les champs suivants existent pour plusieurs types de documents et ont la même d
 * Champ: Extra
   * Description: Champ libre pour le stockage d'informations supplémentaires. Vous pouvez également stocker des variables supplémentaires qui ne sont pas incluses dans les champs d'un document et qui peuvent être utilisées lors de la création de citations et de bibliographies. Voir Citer des champs à partir du champ Extra
 
-
 ### Champs pour les documents juridiques🔗
 
 Pour une prise en charge supplémentaire et plus flexible pour la citation des documents juridiques, voir Citations juridiques (page en anglais).
 
 ##### Lois et audiences🔗
-
-
 
 * Champ: Nom de l'acte
   * Description: Le titre complet d'une loi.
@@ -368,271 +351,3 @@ Pour une prise en charge supplémentaire et plus flexible pour la citation des d
 |Première page    |La première page du volume de recueil dans lequel figure une affaire.         |
 
 
-##### Brevets🔗
-
-
-
-* Champ: Pays
-  * Description: Le pays qui délivre un brevet.
-* Champ: Cessionnaire
-  * Description: L'entité à laquelle sont cédés les droits de propriété d'un brevet.
-* Champ: Autorité émettrice
-  * Description: L'autorité ou le bureau qui examine la demande et délivre le brevet.
-* Champ: N° de brevet
-  * Description: Le numéro d'identification attribué à un brevet.
-* Champ: Date de dépôt
-  * Description: La date à laquelle une demande de brevet a été déposée.
-* Champ: Date de parution
-  * Description: La date à laquelle un brevet est officiellement délivré.
-* Champ: N° d'application
-  * Description: Le numéro d'identification attribué à une demande de brevet.
-* Champ: Numéros de priorité
-  * Description: Le numéro de demande international d'un brevet, utilisé pour les revendications de droits de priorité.
-* Champ: Références
-  * Description: Ressources liées à l'histoire d'un brevet.
-* Champ: Statut légal
-  * Description: Le statut juridique d'un brevet ou d'une demande.
-
-
-Créateurs des documents🔗
------------------------------------------------------------------------------------------
-
-Les types de créateurs marqués d'un astérisque (\*) ne peuvent pas être utilisés dans les citations.
-
-
-
-* Champ: Auteur
-  * Description: L'auteur ou le créateur principal d'une œuvre. Entrez les auteurs (et autres créateurs) dans l'ordre dans lequel ils doivent être cités.Entrez le nom des personnes dans le mode à deux champs (Nom, Prénom). Entrez le nom des institutions ou des organisations dans le mode à un champ.
-* Champ: Éditeur
-  * Description: L'éditeur d'un document ou de la publication plus large dont un document fait partie (par exemple, un livre, une revue). Si une distinction est faite entre l'éditeur textuel et le directeur de la publication, utilisez "Éditeur " pour l'éditeur textuel et entrez le directeur de la publication en tant que "Editorial Director" dans le champ "Extra". Voir Citer des champs à partir du champ Extra ci-dessous.
-* Champ: Directeur de coll.
-  * Description: L'éditeur supervisant une série de documents.
-* Champ: Traducteur
-  * Description: Le traducteur d'un document. Si une même personne est à la fois éditrice et traductrice d'une œuvre, indiquez son nom à la fois en tant qu'éditeur et en tant que traducteur dans des champs séparés.
-* Champ: Collaborateur*
-  * Description: Autres personnes ou entités associées à une œuvre qui ne doivent pas être incluses dans les citations (par exemple, les personnes figurant après "avec" sur la couverture d'un livre). Utilisé en tant qu'"auteur" pour les documents de type "Audience".
-* Champ: Auteur recensé
-  * Description: Le nom de l'auteur de l’œuvre qui est recensée.
-* Champ: 
-  * Description: 
-* Champ: Artiste
-  * Description: Le créateur d'une œuvre d'art ou d'une figure. L'"auteur" pour les documents de type "Illustration".
-* Champ: Interprète
-  * Description: La personne qui joue sur un enregistrement audio. L'"auteur" pour les documents de type "Enregistrement audio".
-* Champ: Compositeur
-  * Description: Le compositeur de la musique dans un enregistrement audio.
-* Champ: Paroles de*
-  * Description: La personne qui a écrit les paroles dans un enregistrement audio (par exemple, le parolier ou le rédacteur de discours).
-* Champ: Membre de la distribution*
-  * Description: Membre de la distribution d'une émission ou d'un spectacle.
-* Champ: Metteur en scène
-  * Description: Le directeur d'une émission ou d'un enregistrement. L'"auteur" pour les documents de type "Film", "Enregistrement vidéo", "Émission de radio" et "Émission de télévision".
-* Champ: Producteur*
-  * Description: Un producteur pour un film, un enregistrement ou une émission.
-* Champ: Scénariste*
-  * Description: La personne qui écrit le scénario d'un film ou d'une émission.
-* Champ: Diffuseur
-  * Description: L'hébergeur d'un podcast. L'"auteur" des documents de type "Balado (Podcast)".
-* Champ: Invité*
-  * Description: Un invité à un podcast, une émission de radio ou de télévision.
-* Champ: Cartographe
-  * Description: Le principal créateur d'une carte. L'"auteur" des documents de type "Carte".
-* Champ: 
-  * Description: 
-* Champ: Programmeur
-  * Description: Le programmeur d'un programme informatique. L'"auteur" des documents de type "Programme informatique".
-* Champ: Présentateur
-  * Description: La personne qui fait une présentation. L'"auteur" des documents de type "Présentation".
-* Champ: Interviewé
-  * Description: La personne interrogée. L'"auteur" des documents de type "Interview"
-* Champ: Reporter
-  * Description: La personne qui pose des questions lors d'une interview.
-* Champ: Commentateur*
-  * Description: Une personne qui commente un article de blog.
-* Champ: Destinataire
-  * Description: La personne qui reçoit une lettre, un courriel ou un message.
-* Champ: 
-  * Description: 
-* Champ: Auteur
-  * Description: L'auteur principal d'un projet de loi ou d'un texte de loi. L'"auteur" pour les documents de type "Projet/proposition de loi" et "Acte juridique" .
-* Champ: Co-parrain*
-  * Description: Co-parrains ou partisans d'un projet de loi ou d'un texte de loi.
-* Champ: Conseiller*
-  * Description: L'avocat qui plaide une affaire judiciaire.
-* Champ: Inventeur
-  * Description: Le créateur d'une invention. L'"auteur" pour les documents de type "Brevet".
-* Champ: Mandataire/agent*
-  * Description: Le mandataire ou l'agent qui représente un inventeur lors du dépôt d'un brevet.
-
-
-### Intitulés des rôles pour les créateurs de médias🔗
-
-Pour les citations de films, d'enregistrements et d'émissions, Zotero propose actuellement une prise en charge limitée au référencement des producteurs, des scénaristes et de certains autres rôles de créateurs.
-
-Pour référencer les réalisateurs, laissez le champ principal de Zotero vide (ou entrez les noms en tant que "Contributeur") et entrez le nom des réalisateurs en utilisant `Director` dans Extra. Voir Citer des champs à partir du champ Extra ci-dessous.
-
-Tous les rôles de créateur (réalisateur, producteur, scénariste, etc.) peuvent également être référencés en entrant le nom à l'aide du rôle "auteur" par défaut pour le document (_interprète_ pour un enregistrement audio, _diffuseur_ pour une baladodiffusion, et _metteur en scène_ pour un film, une émission de radio ou de télévision, et un enregistrement vidéo) et en ajoutant l'intitulé approprié entre parenthèses après le prénom ou le nom de famille des auteurs, en fonction de votre style bibliographique , par exemple MacNaughton || Ian (Producteur) pour le style APA. Notez que les intitulés seront rendus mot pour mot dans les citations ; entrez des termes abrégés (par exemple, "Prod.") ici si nécessaire.
-
-Si le style utilise des initiales pour le prénom des auteurs plutôt que la forme complète des noms (par exemple le style APA), si l'intitulé contient plusieurs mots (par exemple, "Producteur exécutif" ou "Écrivain et réalisateur"), Zotero abrégera les mots de l'intitulé suivant le premier mot. Pour éviter cela, tapez un caractère "Gluon de mots" (Unicode U+2060) de chaque côté de chaque espace de l'intitulé.
-
-Voir aussi Les rôles de créateur de médias.
-
-Types de documents et champs supplémentaires🔗
------------------------------------------------------------------------------------------------------------------------------------
-
-### Types de documents citables non inclus dans Zotero🔗
-
-Ces types de documents ne sont pas encore officiellement pris en charge dans Zotero. À des fins de citation, vous pouvez convertir un document d'un type différent en l'un de ces types en le saisissant dans le champ Extra au format suivant :
-
-```
-Type: Type CSL
-
-```
-
-
-Par exemple :
-
-```
-Type: dataset
-
-```
-
-
-
-
-* Type de document: Jeu de données
-  * Type CSL: dataset
-  * Description: Un jeu de données brut.
-* Type de document: Figure
-  * Type CSL: figure
-  * Description: Une figure incluse dans un écrit scientifique ou académique.
-* Type de document: Partition musicale
-  * Type CSL: musical_score
-  * Description: La partition écrite d'une œuvre musicale.
-* Type de document: Pamphlet
-  * Type CSL: pamphlet
-  * Description: Un ouvrage publié de manière informelle. Généralement plus petit et moins technique qu'un rapport.
-* Type de document: Recension de livre
-  * Type CSL: review-book
-  * Description: Une recension d'un livre. Saisissez-la en tant qu'article de revue, de magazine ou de journal, selon son mode de publication, en indiquant un créateur de type "Auteur recensé".
-* Type de document: Traité
-  * Type CSL: treaty
-  * Description: Un traité juridique entre deux nations.
-
-
-### Champs citables non inclus dans Zotero🔗
-
-Ces champs ne sont pas encore officiellement pris en charge dans Zotero. À des fins de citation, vous pouvez ajouter un ou plusieurs de ces champs à un document Zotero en le(s) saisissant dans le champ Extra au format suivant :
-
-```
-Variable CSL: valeur
-
-```
-
-
-Par exemple :
-
-```
-PMID: 123456
-Status: in press
-Original Date: 1886-04-01
-Director: Kubrick || Stanley
-
-```
-
-
-
-
-* Champ: PMID
-  * Variable CSL: PMID
-  * Description: L'identifiant PubMed.
-* Champ: PMCID
-  * Variable CSL: PMCID
-  * Description: L'identifiant PubMed Centra.
-* Champ: Statut
-  * Variable CSL: status
-  * Description: Le statut de publication d'un document (par exemple, "à paraître", "sous presse", "publication en ligne anticipée").
-* Champ: Date de soumission
-  * Variable CSL: Submitted
-  * Description: La date à laquelle un document a été soumis pour publication.
-* Champ: Titre recensé
-  * Variable CSL: Reviewed Title
-  * Description: Le titre d'une œuvre recensée.
-* Champ: Numéro de chapitre
-  * Variable CSL: Chapter Number
-  * Description: Le numéro d'un chapitre à l'intérieur d'un livre.
-* Champ: Lieu de l'archive
-  * Variable CSL: Archive Place
-  * Description: L' emplacement géographique d'une archive.
-* Champ: Date de l'événement
-  * Variable CSL: Event Date
-  * Description: La date à laquelle un événement a eu lieu. A saisir au format ISO (année-mois-jour).
-* Champ: Lieu de l'événement
-  * Variable CSL: Event Place
-  * Description: L' emplacement géographique d'un événement.
-* Champ: Date originale
-  * Variable CSL: Original Date
-  * Description: La date originale à laquelle un document a été publié. A saisir au format ISO (année-mois-jour).
-* Champ: Titre original
-  * Variable CSL: Original Title
-  * Description: Le titre original d'une œuvre (par exemple, le titre non traduit).
-* Champ: Editeur original
-  * Variable CSL: Original Publisher
-  * Description: L'éditeur commercial de la version originale d'un document (par exemple, la version non traduite).
-* Champ: Lieu de publication original
-  * Variable CSL: Original Publisher Place
-  * Description: L'emplacement géographique de l'éditeur commercial de la version originale d'un document (par exemple, la version non traduite).
-* Champ: Auteur original
-  * Variable CSL: Original Author
-  * Description: Un type de créateur. Le créateur original d'une oeuvre.
-* Champ: Metteur en scène
-  * Variable CSL: Director
-  * Description: Un type de créateur. Le réalisateur d'un film, d'un enregistrement ou d'une émission. Dans Zotero, "Metteur en scène" correspond à l'auteur en CSL. Si vous avez besoin de mentionner un intitulé pour les metteurs en scène —"(Dir.)", saisissez le nom du metteur en scène dans le champ Extra.
-* Champ: Directeur de la publication
-  * Variable CSL: Editorial Director
-  * Description: Un type de créateur. En France, le directeur de la publication désigne le responsable, y compris pénalement, du contenu d'une publication diffusée par voie de presse, d’audiovisuel, ou de communication numérique.
-* Champ: Illustrateur
-  * Variable CSL: Illustrator
-  * Description: Un type de créateur. L'illustrateur d'une œuvre.
-
-
-Si un type de document Zotero manque de certains champs nécessaires pour les citations, il est possible d'ajouter ces champs dans le champ Extra.
-
-Saisissez chaque variable sur une ligne séparée en haut du champ Extra dans le format suivant :
-
-```
-Variable CSL: valeur
-
-```
-
-
-Par exemple:
-
-```
-DOI: 10.1128/AEM.02591-07
-Original Date: 1824
-PMCID: PMC3531190
-
-```
-
-
-À l'exception des variables pour le type de documents (CSL `type`) et les dates (CSL `issued`, etc.), les variables saisies dans le champ Extra ne remplaceront pas les valeurs correspondantes saisies dans les champs Zotero appropriés.
-
-#### Dates🔗
-
-Les dates saisies dans le champ Extra remplaceront la date saisie dans le champ Date de Zotero. Les dates doivent être saisies au format ISO (année-mois-jour). Des plages de dates peuvent être saisies dans ce format :
-
-```
-Issued: 2001-12-15/2001-12-31
-
-```
-
-
-#### Noms🔗
-
-Pour les variables de créateur, séparez les noms à deux champs (nom et prénom) saisis dans le champ Extra avec deux caractères de barre verticale ("||"), comme ceci :
-
-```
-Editorial Director: De Gaulle || Charles
-
-```
